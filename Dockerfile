@@ -4,7 +4,7 @@ MAINTAINER hua zhuang  "zhvxxh@gmail.com"
 RUN apt-get update 
 RUN apt-get install -y git 
 #RUN git clone https://github.com/pchab/ProjectRTC.git ProjectRTC
-ADD ProjectRTC /ProjectRTC
+ADD . /ProjectRTC
 WORKDIR /ProjectRTC
 RUN npm install
 #npm start
